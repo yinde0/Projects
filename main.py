@@ -19,7 +19,6 @@ def diamond_shape(symbol, depth):
             print('{:^20}'.format(str(symbol)*j))
 
 #using the defined functions
-
 left_oriented_tri('x', 5)
 centered_oriented_tri('x', 10)
 diamond_shape('o', 10)
