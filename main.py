@@ -1,6 +1,5 @@
 
-#Triangles with different orientation
-
+#Triangles with different orientation and symbol
 def left_oriented_tri(symbol, depth):
     for i in range(1, depth, 1):
         print(str(symbol) * i)
